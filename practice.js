@@ -108,3 +108,38 @@ var carName;
 // As with algebra, you can do arithmetic with JavaScript variables, using operators like = and +
 // You can also add strings, but strings will be concatenated
 
+// The assignment operator (=) assigns a value to a variable.
+// The addition operator (+) adds numbers.
+// The multiplication operator (*) multiplies numbers.
+// (+)- Addition
+// (-)- Subtraction
+// (*)- Multiplication
+// (/)- Division
+// (%)- Modulus (Division Remainder)
+// (++)- Increment
+// (--)- Decrement
+// (=)	operator (x = y)	same as (x = y)
+// (+=)	operator (x += y)	same as (x = x + y)
+// (-=)	operator (x -= y)	same as (x = x - y)
+// (*=)	operator (x *= y)	same as (x = x * y)
+// (/=)	operator (x /= y)	same as (x = x / y)
+// (%=)	operator (x %= y)	same as (x = x % y)
+// The + operator can also be used to add (concatenate) strings.
+// The += assignment operator can also be used to add (concatenate) strings.
+// Adding two numbers, will return the sum, but adding a number and a string will return a string
+// "=="- equal to
+// "==="- equal value and equal type
+// "!="- not equal
+// "!=="- not equal value or not equal type
+// ">"- greater than
+// "<"- less than
+// ">="- greater than or equal to
+// "<="- less than or equal to
+// "?"- ternary operator
+// "&&"- logical and
+// "||"- logical or
+// "!"- logical not
+// "typeof"- Returns the type of a variable
+// "instanceof"- Returns true if an object is an instance of an object type
+// Bit operators work on 32 bits numbers. Any numeric operand in the operation is converted into a 32 bit number. The result is converted back to a JavaScript number.
+
