@@ -92,3 +92,19 @@ in my web page:
 // Names can also begin with $ and _ (but we will not use it in this tutorial)
 // Names are case sensitive (y and Y are different variables)
 // Reserved words (like JavaScript keywords) cannot be used as names
+// In JavaScript, the equal sign (=) is an "assignment" operator, not an "equal to" operator.
+// JavaScript variables can hold numbers like 100 and text values like "John Doe". In programming, text values are called text strings. JavaScript can handle many types of data, but for now, just think of numbers and strings. Strings are written inside double or single quotes. Numbers are written without quotes. If you put a number in quotes, it will be treated as a text string.
+// Creating a variable in JavaScript is called "declaring" a variable. You declare a JavaScript variable with the var keyword.After the declaration, the variable has no value. (Technically it has the value of undefined). To assign a value to the variable, use the equal sign.
+// You can declare many variables in one statement. Start the statement with var and separate the variables by comma.
+var person = "John Doe", carName = "Volvo", price = 200;
+// A declaration can span multiple lines
+var person = "John Doe",
+carName = "Volvo",
+price = 200;
+// In computer programs, variables are often declared without a value. The value can be something that has to be calculated, or something that will be provided later, like user input. A variable declared without a value will have the value undefined.
+// If you re-declare a JavaScript variable, it will not lose its value.
+var carName = "Volvo";
+var carName;
+// As with algebra, you can do arithmetic with JavaScript variables, using operators like = and +
+// You can also add strings, but strings will be concatenated
+
