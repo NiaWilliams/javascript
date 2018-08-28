@@ -143,3 +143,35 @@ var carName;
 // "instanceof"- Returns true if an object is an instance of an object type
 // Bit operators work on 32 bits numbers. Any numeric operand in the operation is converted into a 32 bit number. The result is converted back to a JavaScript number.
 
+// (<<=)	operator (x <<= y)	same as (x = x << y)
+// (>>=)	operator (x >>= y)	same as (x = x >> y)
+// (>>>=)	operator (x >>>= y)	same as (x = x >>> y)
+// (&=)	operator (x &= y)	same as (x = x & y)
+// (^=)	operator (x^= y)	same as (x = x ^ y)
+// (|=)	opeartor (x |= y)	same as (x = x | y)
+// (**=)	operatr (x **= y)	(x = x ** y)
+
+// JavaScript variables can hold many data types: numbers, strings, objects and more
+// A string (or a text string) is a series of characters like "John Doe". Strings are written with quotes. You can use single or double quotes.
+// JavaScript has only one type of numbers. Numbers can be written with, or without decimals.
+// Extra large or extra small numbers can be written with scientific (exponential) notation.
+var y = 123e5;      // 12300000
+var z = 123e-5;     // 0.00123
+// JavaScript arrays are written with square brackets. Array items are separated by commas.
+// Array indexes are zero-based, which means the first item is [0], second is [1], and so on. You will learn more about arrays later in this tutorial.
+// JavaScript objects are written with curly braces. Object properties are written as name:value pairs, separated by commas.
+// You can use the JavaScript typeof operator to find the type of a JavaScript variable.
+// An empty value has nothing to do with undefined. An empty string has both a legal value and a type.
+// In JavaScript null is "nothing". It is supposed to be something that doesn't exist. Unfortunately, in JavaScript, the data type of null is an object. You can empty an object by setting it to null.
+// You can also empty an object by setting it to undefined.
+// A primitive data value is a single simple data value with no additional properties and methods.
+// The typeof operator can return one of these primitive types:
+// string
+// number
+// boolean
+// undefined
+// The typeof operator can return one of two complex types:
+// function
+// object
+// The typeof operator returns object for both objects, arrays, and null. The typeof operator does not return object for functions.
+
